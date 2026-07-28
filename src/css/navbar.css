@@ -1,0 +1,47 @@
+nav {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 20px 8%;
+
+}
+
+
+nav h2 {
+
+  font-size: 26px;
+
+  color: #ff6600;
+
+}
+
+
+nav ul {
+
+  display: flex;
+
+  gap: 30px;
+
+  list-style: none;
+
+}
+
+
+nav li {
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+
+nav li:hover {
+
+  color: #ff6600;
+
+}

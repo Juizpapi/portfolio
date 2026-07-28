@@ -1,0 +1,31 @@
+.about {
+
+  padding: 80px 8%;
+
+  text-align: center;
+
+}
+
+
+.about h2 {
+
+  font-size: 40px;
+
+  margin-bottom: 25px;
+
+  color: #ff6600;
+
+}
+
+
+.about p {
+
+  max-width: 800px;
+
+  margin: auto;
+
+  font-size: 18px;
+
+  line-height: 1.8;
+
+}
