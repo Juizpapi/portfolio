@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import michael from "../assets/images/michael2.png";
+import michael from "../assets/images/Michael2.png";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
