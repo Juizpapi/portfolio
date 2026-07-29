@@ -1,0 +1,177 @@
+/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+
+
+@media(max-width:768px){
+
+
+/* NAVBAR */
+
+nav{
+
+    padding:20px;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+nav h2{
+
+    font-size:24px;
+
+}
+
+
+nav ul{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:15px;
+
+    padding:0;
+
+    font-size:14px;
+
+}
+
+
+
+/* ALL SECTIONS */
+
+.skills,
+.projects,
+.contact,
+.about{
+
+    padding:50px 20px;
+
+}
+
+
+
+/* SECTION TITLES */
+
+.skills h2,
+.projects h2,
+.contact h2,
+.about h2{
+
+    font-size:32px;
+
+}
+
+
+
+/* SKILLS */
+
+.skills-container{
+
+    grid-template-columns:1fr;
+
+    gap:20px;
+
+}
+
+
+.skill-card{
+
+    padding:25px;
+
+}
+
+
+
+/* PROJECTS */
+
+.projects-container{
+
+    grid-template-columns:1fr;
+
+    gap:20px;
+
+}
+
+
+.project-card{
+
+    padding:25px;
+
+}
+
+
+.project-card h3{
+
+    font-size:22px;
+
+}
+
+
+.project-buttons{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+
+.project-buttons a{
+
+    text-align:center;
+
+}
+
+
+
+/* ABOUT */
+
+.about p{
+
+    font-size:16px;
+
+}
+
+
+
+/* CONTACT */
+
+.contact p{
+
+    font-size:16px;
+
+}
+
+
+
+/* FOOTER */
+
+.footer{
+
+    padding:40px 20px 20px;
+
+}
+
+
+.footer-container{
+
+    text-align:center;
+
+    align-items:center;
+
+}
+
+
+.social-icons{
+
+    justify-content:center;
+
+}
+
+
+}
