@@ -8,7 +8,23 @@ function Projects() {
       description:
         "A full-stack restaurant ordering platform with authentication, online payments, admin management and customer reviews.",
       tech:
-        "React, Node.js, Express, MongoDB, Paystack"
+        "React, Node.js, Express, MongoDB, Paystack",
+      demo:
+        "https://come-again.vercel.app/",
+      github:
+        "https://github.com/Juizpapi/ComeAgain.git"
+    },
+
+    {
+      title: "AddTech Fabrication Engineering",
+      description:
+        "A modern company website for a fabrication engineering business featuring services, project showcases, videos, image sliders and contact integration.",
+      tech:
+        "React, Vite, CSS, Swiper.js",
+      demo:
+        "https://addtech-fabrication.vercel.app/",
+      github:
+        "https://github.com/Juizpapi/addtech-fabrication.git"
     }
   ];
 
@@ -44,26 +60,27 @@ function Projects() {
             </span>
 
 
- <div className="project-buttons">
+            <div className="project-buttons">
 
-  <a 
-    href="https://come-again.vercel.app/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Live Demo
-  </a>
+              <a 
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo
+              </a>
 
 
-  <a 
-    href="https://github.com/Juizpapi/ComeAgain.git"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    GitHub
-  </a>
+              <a 
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
 
-</div>
+            </div>
+
 
           </div>
 
