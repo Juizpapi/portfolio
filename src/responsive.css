@@ -186,4 +186,9 @@ nav ul{
     justify-content:center;
 }
 
+  section {
+    scroll-margin-top: 140px;
+  }
+
 }
+

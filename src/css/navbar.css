@@ -56,6 +56,23 @@ nav li {
 
 }
 
-nav a.active {
-  color: #ff6600;
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav a:visited,
+nav a:focus,
+nav a:active {
+  color: white;
+  outline: none;
+}
+
+@media (hover: hover) {
+  nav a:hover {
+    color: #ff6600;
+  }
 }

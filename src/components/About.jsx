@@ -1,8 +1,8 @@
 import "../css/about.css";
 
-function About() {
+function About({ id }) {
   return (
-    <section className="about" id="about">
+    <section className="about" id={id}>
 
       <h2>About Me</h2>
 

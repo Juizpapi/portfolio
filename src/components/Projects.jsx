@@ -1,6 +1,6 @@
 import "../css/projects.css";
 
-function Projects() {
+function Projects({ id }) {
 
   const projects = [
     {
@@ -31,7 +31,7 @@ function Projects() {
 
   return (
 
-    <section className="projects" id="projects">
+    <section className="projects" id={id}>
 
       <h2>My Projects</h2>
 

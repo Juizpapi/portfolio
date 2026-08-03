@@ -1,6 +1,6 @@
 import "../css/skills.css";
 
-function Skills() {
+function Skills({ id }) {
 
   const skills = [
     "HTML",
@@ -16,7 +16,7 @@ function Skills() {
 
   return (
 
-    <section className="skills" id="skills">
+    <section className="skills" id={id}>
 
       <h2>My Skills</h2>
 
