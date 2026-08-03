@@ -1,5 +1,5 @@
 import "../css/footer.css";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -17,16 +17,7 @@ function Footer() {
         </div>
 
 
-        <div className="footer-links">
 
-          <h3>Quick Links</h3>
-
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-
-        </div>
 
 
         <div className="footer-social">
@@ -45,6 +36,10 @@ function Footer() {
 
             <a href="https://x.com/juzpapi" target="_blank">
               <FaTwitter />
+            </a>
+
+            <a href="https://www.instagram.com/juizpapi" target="_blank">
+              <FaInstagram />
             </a>
 
           </div>

@@ -1,4 +1,9 @@
-import { FaWhatsapp } from "react-icons/fa";
+import { 
+  FaWhatsapp, 
+  FaGithub, 
+  FaLinkedin, 
+  FaEnvelope 
+} from "react-icons/fa";
 import "../css/contact.css";
 
 function Contact() {
@@ -22,8 +27,9 @@ function Contact() {
     href="mailto:miknelandex@gmail.com"
     className="contact-pill"
   >
-    📧 Email
-  </a>
+  <FaEnvelope />
+  Email
+</a>
 
 
 
@@ -33,8 +39,9 @@ function Contact() {
     rel="noopener noreferrer"
     className="contact-pill"
   >
-    💻 GitHub
-  </a>
+  <FaGithub />
+  GitHub
+</a>
 
   <a
     href="https://www.linkedin.com/in/michael-adeyemi-248484301"
@@ -42,8 +49,9 @@ function Contact() {
     rel="noopener noreferrer"
     className="contact-pill"
   >
-    🔗 LinkedIn
-  </a>
+  <FaLinkedin />
+  LinkedIn
+</a>
 
 </div>
 
