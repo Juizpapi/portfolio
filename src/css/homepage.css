@@ -1,13 +1,10 @@
 .hero {
-
   min-height: 80vh;
-
   display: flex;
-
   align-items: center;
 
   padding: 0 8%;
-
+  padding-top: 100px;
 }
 
 
@@ -73,7 +70,8 @@
 
 .hero-buttons button:first-child {
 
-  background: #ff6600;
+  background: rgba(255, 102, 0, 0.12);
+  border: 1px solid #ff6600;
 
   color: white;
 
@@ -129,7 +127,7 @@
 
   border: 5px solid #ff6600;
 
-  box-shadow: 0 0 30px rgba(255,102,0,0.3);
+  
 
   animation: float 4s ease-in-out infinite;
 

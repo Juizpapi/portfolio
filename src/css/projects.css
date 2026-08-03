@@ -97,7 +97,9 @@
 
 .project-buttons a:first-child {
 
-  background: #ff6600;
+  background: rgba(255, 102, 0, 0.12);
+  
+  border: 1px solid #ff6600;
 
   color: white;
 

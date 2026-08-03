@@ -1,4 +1,4 @@
-
+import { FaWhatsapp } from "react-icons/fa";
 import "../css/contact.css";
 
 function Contact() {
@@ -18,49 +18,43 @@ function Contact() {
 
 <div className="contact-info">
 
-  <p>
-    📧 Email: 
-    <a href="mailto:miknelandex@gmail.com">
-      miknelandex@gmail.com
-    </a>
-  </p>
+  <a
+    href="mailto:miknelandex@gmail.com"
+    className="contact-pill"
+  >
+    📧 Email
+  </a>
 
 
-  <p>
-    📍 Location: Lagos, Nigeria
-  </p>
 
+  <a
+    href="https://github.com/Juizpapi"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="contact-pill"
+  >
+    💻 GitHub
+  </a>
 
-  <p>
-    💻 GitHub:
-    <a 
-      href="https://github.com/Juizpapi"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Github
-    </a>
-  </p>
-
-
-  <p>
-    🔗 LinkedIn:
-    <a 
-      href="https://www.linkedin.com/in/michael-adeyemi-248484301?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      LinkedIn Profile
-    </a>
-  </p>
+  <a
+    href="https://www.linkedin.com/in/michael-adeyemi-248484301"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="contact-pill"
+  >
+    🔗 LinkedIn
+  </a>
 
 </div>
 
-<a 
-  href="mailto:miknelandex@gmail.com?subject=Portfolio Contact&body=Hi Michael, I would like to discuss a project with you."
+<a
+  href="https://wa.me/2347040313437?text=Hi%20Michael,%20I%20came%20across%20your%20portfolio%20and%20I'd%20like%20to%20discuss%20a%20project%20with%20you."
+  target="_blank"
+  rel="noopener noreferrer"
   className="send-button"
 >
-  Send Message
+   <FaWhatsapp />
+   WhatsApp
 </a>
 
 
